@@ -13,7 +13,7 @@ const config = {
 			fallback: 'index.html',
 			precompress: false,
 		}),
-		paths: { assets: "", base: "/tierheim-remscheid" },
+		paths: { assets: "/tierheim-remscheid", base: "/tierheim-remscheid" },
 	}
 };
 
