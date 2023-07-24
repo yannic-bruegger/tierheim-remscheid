@@ -67,17 +67,27 @@ header {
   padding: var(--spacing-s) var(--relative-spacing);
 }
 
-nav ul {
+nav {
+  height: 100%;
+}
+
+nav > ul {
+  height: 100%;
   display: flex;
   gap: 2em;
   list-style: none;
   position: relative;
+
   & li {
     height: 100%;
     white-space: nowrap;
     font-weight: 600;
+    cursor: pointer;
   }
   & li ul {
+    gap: 2em;
+    list-style: none;
+    position: relative;
     display: none;
     color: var(--font-base);
     position: absolute;

@@ -11,7 +11,9 @@
   <div class="spacer"></div>
   <div class="hint">
     <h2>Aktuelles</h2>
-    <i>ICON</i>
+    <span class="material-symbols-outlined">
+      stat_minus_2
+    </span>
   </div>
 </div>
 

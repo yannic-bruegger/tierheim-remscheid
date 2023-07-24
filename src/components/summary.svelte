@@ -72,6 +72,12 @@ Dienstag, Mittwoch, Donnerstag, Samstag, Sonntag:
     & .animal-cards {
       display: flex;
       gap: 1em;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+
+      & AnimalCard {
+        scroll-snap-align: start;
+      }
     }
   }
 
