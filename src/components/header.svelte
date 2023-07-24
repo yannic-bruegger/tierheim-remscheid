@@ -1,3 +1,7 @@
+<script lang="ts">
+  import { base } from '$app/paths';
+</script>
+
 <header>
   <nav>
     <ul>
@@ -5,31 +9,31 @@
       <li>
         Das Sind Wir
         <ul>
-          <li><a href="/">Das Team</a></li>
-          <li><a href="/">Der Vorstand</a></li>
-          <li><a href="/">Der Verein</a></li>
+          <li><a href="{base}/">Das Team</a></li>
+          <li><a href="{base}/">Der Vorstand</a></li>
+          <li><a href="{base}/">Der Verein</a></li>
         </ul>
       </li>
       <li>
         Gut zu wissen
         <ul>
-          <li><a href="/">Tier gefunden - was tun?</a></li>
-          <li><a href="/">Tier vermisst - was tun?</a></li>
-          <li><a href="/">Hilfe für Wildtieren</a></li>
-          <li><a href="/">Katzenschutzverordnung</a></li>
-          <li><a href="/">Tierärztlicher Notdienst</a></li>
-          <li><a href="/">Sachkunde für große Hunde</a></li>
-          <li><a href="/">Sachspende bei geschlossenem Tierheim</a></li>
+          <li><a href="{base}/">Tier gefunden - was tun?</a></li>
+          <li><a href="{base}/">Tier vermisst - was tun?</a></li>
+          <li><a href="{base}/">Hilfe für Wildtieren</a></li>
+          <li><a href="{base}/">Katzenschutzverordnung</a></li>
+          <li><a href="{base}/">Tierärztlicher Notdienst</a></li>
+          <li><a href="{base}/">Sachkunde für große Hunde</a></li>
+          <li><a href="{base}/">Sachspende bei geschlossenem Tierheim</a></li>
         </ul>
       </li>
       <li>
         Unsere Tiere
         <ul>
-          <li><a href="/">Hunde</a></li>
-          <li><a href="/">Katzen</a></li>
-          <li><a href="/">Kaninchen</a></li>
-          <li><a href="/">Vögel</a></li>
-          <li><a href="/">Andere Mitbewohner</a></li>
+          <li><a href="{base}/">Hunde</a></li>
+          <li><a href="{base}/">Katzen</a></li>
+          <li><a href="{base}/">Kaninchen</a></li>
+          <li><a href="{base}/">Vögel</a></li>
+          <li><a href="{base}/">Andere Mitbewohner</a></li>
           <hr>
           <li><a href="/">Notfälle</a></li>
           <li><a href="/">Regenbogenbrücke</a></li>
@@ -38,14 +42,14 @@
       <li>
         Aktuelles
         <ul>
-          <li><a href="">Tierheimzeitung</a></li>
-          <li><a href="">Danksagungen</a></li>
-          <li><a href="">Kaninchen</a></li>
-          <li><a href="">Vögel</a></li>
-          <li><a href="">Andere Mitbewohner</a></li>
+          <li><a href="{base}/">Tierheimzeitung</a></li>
+          <li><a href="{base}/">Danksagungen</a></li>
+          <li><a href="{base}/">Kaninchen</a></li>
+          <li><a href="{base}/">Vögel</a></li>
+          <li><a href="{base}/">Andere Mitbewohner</a></li>
         </ul>
       </li>
-      <li><a href="/">Arbeitgeber</a></li>
+      <li><a href="{base}/">Arbeitgeber</a></li>
     </ul>
   </nav>
 </header>
