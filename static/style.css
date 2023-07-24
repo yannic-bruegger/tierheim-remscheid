@@ -21,7 +21,7 @@
   font-family: var(--font-family);
   color: var(--font-base);
   background-color: var(--bg-colour);
-  background-image: url('tierheim-remscheid/dog-main.png');
+  background-image: url('/tierheim-remscheid/dog-main.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
