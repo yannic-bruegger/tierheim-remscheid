@@ -30,3 +30,14 @@
   overflow-x: hidden;
   box-sizing: border-box;
 }
+
+.spacer {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}

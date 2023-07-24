@@ -3,6 +3,8 @@
 </script>
 
 <header>
+  <span><b>Tierheim Remscheid</b></span>
+  <div class="spacer"></div>
   <nav>
     <ul>
       <li><a href="/">Home</a></li>
@@ -72,6 +74,8 @@ nav ul {
   position: relative;
   & li {
     height: 100%;
+    white-space: nowrap;
+    font-weight: 600;
   }
   & li ul {
     display: none;

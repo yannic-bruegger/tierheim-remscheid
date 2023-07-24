@@ -6,21 +6,45 @@
 </script>
 <div class="summary">
   <main>
-    <h1>Unsere Neuzugänge</h1>
-    <div class="animal-cards">
-      <AnimalCard></AnimalCard>
-      <AnimalCard></AnimalCard>
-      <AnimalCard></AnimalCard>
+    <div class="section">
+      <h1>Unsere Neuzugänge</h1>
+      <div class="animal-cards">
+        <AnimalCard></AnimalCard>
+        <AnimalCard></AnimalCard>
+        <AnimalCard></AnimalCard>
+      </div>
     </div>
-    <h1>Aktuelles</h1>
-    <NewsPost></NewsPost>
-    <NewsPost></NewsPost>
-    <NewsPost></NewsPost>
-    <NewsPost></NewsPost>
+    <div class="section">
+      <h1>Aktuelles</h1>
+      <div class="news">
+        <NewsPost></NewsPost>
+        <NewsPost></NewsPost>
+        <NewsPost></NewsPost>
+        <NewsPost></NewsPost>
+      </div>
+    </div>
   </main>
   <aside>
-    <h1>Test</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit enim, iusto sapiente doloribus laudantium hic officia ipsam neque, illum dolorum ullam quasi possimus. Illo veniam ab quidem. Facilis, ducimus.</p>
+    <div class="section">
+      <h1>Infos</h1>
+      <p>
+ÖFFNUNGSZEITEN
+Das Tierheim öffnet:
+Mi. 14.00 - 16.00 Uhr
+Sa. 14.00 - 16.00 Uhr
+So. 14.00 - 16.00 Uhr
+
+GASSIGEHZEITEN
+Die Hunde müssen jeweils 11.30 bzw. 15.30 Uhr zurück im Heim sein
+
+Montag und Freitag:
+08.15 - 11.30 Uhr
+14.00 - 15.30 Uhr
+
+Dienstag, Mittwoch, Donnerstag, Samstag, Sonntag:
+08.15 - 11.30 Uhr
+      </p>
+    </div>
   </aside>
 </div>
 
@@ -34,6 +58,7 @@
   & main {
     display: flex;
     flex-direction: column;
+    gap: var(--spacing-m);
     width: 66.6%;
 
     & .animal-cards {
@@ -45,7 +70,24 @@
   & aside {
     display: flex;
     flex-direction: column;
+    gap: var(--spacing-m);
     width: 33.3%;
+
+    & p {
+      white-space: pre-wrap;
+    }
   }
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s)
 }
 </style>

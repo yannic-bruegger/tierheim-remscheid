@@ -1,7 +1,7 @@
 <div class="screen">
   <div class="spacer"></div>
   <div class="intro">
-    <h1 class="screen-headline">Willkommen auf unserer Website</h1>
+    <h1 class="screen-headline">Willkommen auf<br> unserer Website</h1>
     <p class="screen-paragraph">Tierheim Remscheid - Hier einleitender Text.</p>
   </div>
   <div class="calls-to-action">
@@ -39,5 +39,30 @@
 
 .screen-paragraph {
   font-size: 1.5rem;
+}
+
+.hint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--accent);
+  padding: var(--spacing-s) var(--spacing-m);
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.secondary-action {
+  background-color: transparent;
+  color: var(--accent);
+  backdrop-filter: var(--shadow);
 }
 </style>
