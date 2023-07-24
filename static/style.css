@@ -9,10 +9,12 @@
   --spacing-m: 2rem;
   --spacing-s: 1rem;
   --spacing-xs: .3rem;
-  --bg-colour:  #F9F8F6;
+  --bg-colour:  #f9f8f6;
+  --bg-color-elevated: #ffffff;
   --inverted-base: #efefef;
   --font-base: #181818;
   --accent: #6BAA75;
+  --accent-background: #6baa762a;
   --relative-spacing: 10%;
   --font-family: Arial, Helvetica, sans-serif;
   
@@ -40,4 +42,12 @@
 a {
   all: unset;
   cursor: pointer;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
