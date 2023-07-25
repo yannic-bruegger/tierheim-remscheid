@@ -39,7 +39,7 @@
     display: grid;
     display: grid;
     grid-template-rows: repeat(auto-fill);
-    grid-row-gap: .5em;
+    grid-row-gap: 1em;
     grid-column-gap: 1em;
   }
 

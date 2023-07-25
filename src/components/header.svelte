@@ -65,6 +65,7 @@ header {
   align-items: center;
   color: var(--inverted-base);
   padding: var(--spacing-s) var(--relative-spacing);
+
 }
 
 nav {
@@ -85,7 +86,7 @@ nav > ul {
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    align-items: center;
+
     justify-content: center;
   }
   & li ul {
@@ -100,12 +101,16 @@ nav > ul {
     flex-direction: column;
     background-color: var(--bg-colour);
     padding: var(--spacing-s);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.06);
+    z-index: 9999;
   }
-  & li:hover > ul {
+  & li:hover {
+    color: var(--accent);
+    & > ul {
     display: flex;
-
-    &:hover {
-      display: flex;
+      &:hover {
+        display: flex;
+      }
     }
   }
 }

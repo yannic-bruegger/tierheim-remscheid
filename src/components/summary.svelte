@@ -2,6 +2,7 @@
 
 	import AnimalCard from "./animal-card.svelte";
 	import NewsPost from "./news-post.svelte";
+  import { base } from "$app/paths";
 
   const animals = [
     { name: 'August', type: 'Katze', gender: 'male',   description1: 'Hauskatze', description2: '12 Jahre', image: 'https://source.unsplash.com/random/?dog,cat,rabbit&sig=1' },
@@ -17,17 +18,17 @@
         <h1 class="accent">Unsere Neuzugänge</h1>
         <div class="animal-cards">
           {#each animals as animal }
-            <a href="animal"><AnimalCard {...animal}></AnimalCard></a>
+            <a href="{base}/animal"><AnimalCard {...animal}></AnimalCard></a>
           {/each}
         </div>
       </div>
       <div class="section">
         <h1 class="accent">Neuigkeiten</h1>
         <div class="news">
-          <a href="article"><NewsPost></NewsPost></a>
-          <a href="article"><NewsPost></NewsPost></a>
-          <a href="article"><NewsPost></NewsPost></a>
-          <a href="article"><NewsPost></NewsPost></a>
+          <a href="{base}/article"><NewsPost></NewsPost></a>
+          <a href="{base}/article"><NewsPost></NewsPost></a>
+          <a href="{base}/article"><NewsPost></NewsPost></a>
+          <a href="{base}/article"><NewsPost></NewsPost></a>
         </div>
       </div>
     </main>

@@ -1,6 +1,6 @@
 <div class="page-contents">
-  <h1>Some article</h1>
-  <p>Hier ist platz für Inhakt.</p>
+  <h1>Artikelüberschrift</h1>
+  <p>Diese Seite repräsentiert einen Artikel. Hier kann quasi alles stehen. Texte und Bilder so, wie es bereits aus der aktuellen Seite bekannt ist.</p>
 </div>
 
 <style>
