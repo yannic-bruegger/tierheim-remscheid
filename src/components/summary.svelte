@@ -125,4 +125,8 @@ aside {
   flex-direction: column;
   gap: var(--spacing-s)
 }
+
+.animal-cards > * {
+  max-width: 13rem;
+}
 </style>

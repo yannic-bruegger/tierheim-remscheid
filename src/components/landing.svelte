@@ -1,3 +1,7 @@
+<script>
+	import { base } from "$app/paths";
+
+</script>
 <div class="screen">
   <div class="spacer"></div>
   <div class="intro">
@@ -5,8 +9,8 @@
     <p class="screen-paragraph">Tierheim Remscheid - Hier einleitender Text.</p>
   </div>
   <div class="calls-to-action">
-    <a href="animals" class="primary-action">Lerne die Tiere kennen</a>
-    <a href="article" class="secondary-action">oder hilf uns mit einer Spende</a>
+    <a href="{base}/animals" class="primary-action">Lerne die Tiere kennen</a>
+    <a href="{base}/article" class="secondary-action">oder hilf uns mit einer Spende</a>
   </div>
   <div class="spacer"></div>
   <div class="hint">

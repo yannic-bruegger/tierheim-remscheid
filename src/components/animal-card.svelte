@@ -62,7 +62,7 @@
   
   img {
     height: 13rem;
-    width: 13rem;
+    width: 100%;
     object-fit: cover;
     object-position: center center;
   }
