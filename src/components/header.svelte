@@ -3,55 +3,55 @@
 </script>
 
 <header>
-  <span><b>Tierheim Remscheid</b></span>
+  <span><a href="/tierheim-remscheid"><b>Tierheim Remscheid</b></a></span>
   <div class="spacer"></div>
   <nav>
     <ul>
-      <li><a href="/">Home</a></li>
+      <li><a href="{base}/">Home</a></li>
       <li>
         Das Sind Wir
         <ul>
-          <li><a href="{base}/">Das Team</a></li>
-          <li><a href="{base}/">Der Vorstand</a></li>
-          <li><a href="{base}/">Der Verein</a></li>
+          <li><a href="{base}/article">Das Team</a></li>
+          <li><a href="{base}/article">Der Vorstand</a></li>
+          <li><a href="{base}/article">Der Verein</a></li>
         </ul>
       </li>
       <li>
         Gut zu wissen
         <ul>
-          <li><a href="{base}/">Tier gefunden - was tun?</a></li>
-          <li><a href="{base}/">Tier vermisst - was tun?</a></li>
-          <li><a href="{base}/">Hilfe für Wildtieren</a></li>
-          <li><a href="{base}/">Katzenschutzverordnung</a></li>
-          <li><a href="{base}/">Tierärztlicher Notdienst</a></li>
-          <li><a href="{base}/">Sachkunde für große Hunde</a></li>
-          <li><a href="{base}/">Sachspende bei geschlossenem Tierheim</a></li>
+          <li><a href="{base}/article">Tier gefunden - was tun?</a></li>
+          <li><a href="{base}/article">Tier vermisst - was tun?</a></li>
+          <li><a href="{base}/article">Hilfe für Wildtieren</a></li>
+          <li><a href="{base}/article">Katzenschutzverordnung</a></li>
+          <li><a href="{base}/article">Tierärztlicher Notdienst</a></li>
+          <li><a href="{base}/article">Sachkunde für große Hunde</a></li>
+          <li><a href="{base}/article">Sachspende bei geschlossenem Tierheim</a></li>
         </ul>
       </li>
       <li>
         Unsere Tiere
         <ul>
-          <li><a href="{base}/">Hunde</a></li>
-          <li><a href="{base}/">Katzen</a></li>
-          <li><a href="{base}/">Kaninchen</a></li>
-          <li><a href="{base}/">Vögel</a></li>
-          <li><a href="{base}/">Andere Mitbewohner</a></li>
+          <li><a href="{base}/animals">Hunde</a></li>
+          <li><a href="{base}/animals">Katzen</a></li>
+          <li><a href="{base}/animals">Kaninchen</a></li>
+          <li><a href="{base}/animals">Vögel</a></li>
+          <li><a href="{base}/animals">Andere Mitbewohner</a></li>
           <hr>
-          <li><a href="/">Notfälle</a></li>
-          <li><a href="/">Regenbogenbrücke</a></li>
+          <li><a href="/article">Notfälle</a></li>
+          <li><a href="/article">Regenbogenbrücke</a></li>
         </ul>
       </li>
       <li>
         Aktuelles
         <ul>
-          <li><a href="{base}/">Tierheimzeitung</a></li>
-          <li><a href="{base}/">Danksagungen</a></li>
-          <li><a href="{base}/">Kaninchen</a></li>
-          <li><a href="{base}/">Vögel</a></li>
-          <li><a href="{base}/">Andere Mitbewohner</a></li>
+          <li><a href="{base}/article">Tierheimzeitung</a></li>
+          <li><a href="{base}/article">Danksagungen</a></li>
+          <li><a href="{base}/article">Kaninchen</a></li>
+          <li><a href="{base}/article">Vögel</a></li>
+          <li><a href="{base}/article">Andere Mitbewohner</a></li>
         </ul>
       </li>
-      <li><a href="{base}/">Arbeitgeber</a></li>
+      <li><a href="{base}/article">Arbeitgeber</a></li>
     </ul>
   </nav>
 </header>
@@ -83,6 +83,10 @@ nav > ul {
     white-space: nowrap;
     font-weight: 600;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   & li ul {
     gap: 2em;

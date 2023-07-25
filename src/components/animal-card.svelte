@@ -1,14 +1,29 @@
+<script lang="ts">
+  export let name: string;
+  export let gender: 'male'|'female'|'';
+  export let description1: string = '';
+  export let description2: string = '&nbsp;';
+  export let image: string;
+  export let type: string;
+
+  const genderTranslations = {
+    'male': 'männlich',
+    'female': 'weiblich',
+    '': 'unbekannt',
+  }
+</script>
+
 <div class="card">
-  <img src="https://tierheim-remscheid.de/wp-content/uploads/2023/07/IMG-20230721-WA0002.jpg" alt="cat">
+  <img src="{image}" alt="{type}">
   <div class="description">
     <div class="inline">
-      <h1>Haddy</h1>
-      <span class="gender" title="weiblich"><span class="material-symbols-outlined">
-        female
+      <h1>{name}</h1>
+      <span class="gender" title="{genderTranslations[gender]}"><span class="material-symbols-outlined">
+        {gender}
       </span></span>
     </div>
-    <div>Hauskatze</div>
-    <div>12 Jahre</div>
+    <div>{description1}&nbsp;</div>
+    <div>{description2}&nbsp;</div>
   </div>
 </div>
 
@@ -43,17 +58,20 @@
     overflow: hidden;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.06);
     min-width: 200px;
-    max-width: 15rem;
   }
-
+  
   img {
-    width: 100%;
-    height: 100%;
+    height: 13rem;
+    width: 13rem;
     object-fit: cover;
     object-position: center center;
   }
 
   .description {
     padding: 1em;
+  }
+
+  div {
+    display: block;
   }
 </style>

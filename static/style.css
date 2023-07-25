@@ -6,6 +6,7 @@
 
 :root {
   --header-height: 4rem;
+  --footer-height: 12rem;
   --spacing-m: 2rem;
   --spacing-s: 1rem;
   --spacing-xs: .3rem;
@@ -51,4 +52,9 @@ a {
   'GRAD' 0,
   'opsz' 48;
   user-select: none;
+}
+
+.accent {
+  color: var(--accent);
+  font-weight: 300;
 }

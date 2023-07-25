@@ -3,21 +3,26 @@
 	import AnimalCard from "./animal-card.svelte";
 	import NewsPost from "./news-post.svelte";
 
+  const animals = [
+    { name: 'August', type: 'Katze', gender: 'male',   description1: 'Hauskatze', description2: '12 Jahre', image: 'https://source.unsplash.com/random/?dog,cat,rabbit&sig=1' },
+    { name: 'Jens', type: 'Katze', gender: 'female', description1: 'Windhund', description2: '', image: 'https://source.unsplash.com/random/?dog,cat,rabbit&sig=2' },
+    { name: 'Nina', type: 'Katze', gender: 'male',   description1: 'Hauskatze', description2: '', image: 'https://source.unsplash.com/random/?dog,cat,rabbit&sig=3' },
+  ];
 </script>
 <div class="container">
 
   <div class="summary">
     <main>
       <div class="section">
-        <h1>Unsere Neuzugänge</h1>
+        <h1 class="accent">Unsere Neuzugänge</h1>
         <div class="animal-cards">
-          <AnimalCard></AnimalCard>
-          <AnimalCard></AnimalCard>
-          <AnimalCard></AnimalCard>
+          {#each animals as animal }
+            <a href="animal"><AnimalCard {...animal}></AnimalCard></a>
+          {/each}
         </div>
       </div>
       <div class="section">
-        <h1>Neuigkeiten</h1>
+        <h1 class="accent">Neuigkeiten</h1>
         <div class="news">
           <NewsPost></NewsPost>
           <NewsPost></NewsPost>
@@ -28,7 +33,7 @@
     </main>
     <aside>
       <div class="section">
-        <h1>Infos</h1>
+        <h1 class="accent">Infos</h1>
         <p>
 ÖFFNUNGSZEITEN
 Das Tierheim öffnet:
@@ -80,16 +85,21 @@ Dienstag, Mittwoch, Donnerstag, Samstag, Sonntag:
       }
     }
   }
+}
 
-  & aside {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-m);
-    width: 33.3%;
+aside {
+  font-size: unset;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-m);
+  width: 33.3%;
 
-    & p {
-      white-space: pre-wrap;
-    }
+  & p {
+    white-space: pre-wrap;
+  }
+
+  & h1 {
+    font-size: 2em;
   }
 }
 

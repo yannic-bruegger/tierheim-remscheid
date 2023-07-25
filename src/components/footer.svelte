@@ -21,10 +21,10 @@ Schwelmer Straße 86
   <div>
     <h1>Weitere Links</h1>
     <ul>
-      <li><a>Test1</a></li>
-      <li><a>Test1</a></li>
-      <li><a>Test1</a></li>
-      <li><a>Test1</a></li>
+      <li><a href="/">Test1</a></li>
+      <li><a href="/">Test1</a></li>
+      <li><a href="/">Test1</a></li>
+      <li><a href="/">Test1</a></li>
     </ul>
   </div>
 </footer>
@@ -34,6 +34,7 @@ Schwelmer Straße 86
     background-color: #1E1E1E;
     padding: var(--spacing-m) var(--relative-spacing);
     display: flex;
+    height: var(--footer-height);
   }
 
   div {
