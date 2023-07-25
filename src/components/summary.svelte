@@ -24,10 +24,10 @@
       <div class="section">
         <h1 class="accent">Neuigkeiten</h1>
         <div class="news">
-          <NewsPost></NewsPost>
-          <NewsPost></NewsPost>
-          <NewsPost></NewsPost>
-          <NewsPost></NewsPost>
+          <a href="article"><NewsPost></NewsPost></a>
+          <a href="article"><NewsPost></NewsPost></a>
+          <a href="article"><NewsPost></NewsPost></a>
+          <a href="article"><NewsPost></NewsPost></a>
         </div>
       </div>
     </main>

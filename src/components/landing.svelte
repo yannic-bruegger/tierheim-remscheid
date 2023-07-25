@@ -5,8 +5,8 @@
     <p class="screen-paragraph">Tierheim Remscheid - Hier einleitender Text.</p>
   </div>
   <div class="calls-to-action">
-    <button class="primary-action">Lerne die Tiere kennen</button>
-    <button class="secondary-action">oder hilf uns mit einer Spende</button>
+    <a href="animals" class="primary-action">Lerne die Tiere kennen</a>
+    <a href="article" class="secondary-action">oder hilf uns mit einer Spende</a>
   </div>
   <div class="spacer"></div>
   <div class="hint">
@@ -50,7 +50,7 @@
   justify-content: center;
 }
 
-button {
+a {
   all: unset;
   display: flex;
   justify-content: center;

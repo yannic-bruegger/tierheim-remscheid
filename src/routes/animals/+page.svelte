@@ -1,16 +1,16 @@
 <script>
 	import AnimalCard from "../../components/animal-card.svelte";
   const animals = [
-    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Hauskatze', description2: '12 Jahre', image: 'https://tierheim-remscheid.de/wp-content/uploads/2023/07/IMG-20230721-WA0002.jpg' },
-    { name: 'Agust', type: 'Katze', gender: 'female', description1: 'Windhund', description2: '', image: 'https://tierheim-remscheid.de/wp-content/uploads/2023/07/IMG-20230721-WA0002.jpg' },
-    { name: 'Agust', type: 'Katze', gender: '',       description1: 'Hauskatze', description2: '', image: 'https://tierheim-remscheid.de/wp-content/uploads/2023/07/IMG-20230721-WA0002.jpg' },
-    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Hauskatze', description2: '', image: 'https://tierheim-remscheid.de/wp-content/uploads/2023/07/IMG-20230721-WA0002.jpg' },
-    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Hauskatze', description2: '', image: 'https://tierheim-remscheid.de/wp-content/uploads/2023/07/IMG-20230721-WA0002.jpg' },
-    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Huaskatze', description2: '', image: 'https://tierheim-remscheid.de/wp-content/uploads/2023/07/IMG-20230721-WA0002.jpg' },
-    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Huaskatze', description2: '', image: 'https://tierheim-remscheid.de/wp-content/uploads/2023/07/IMG-20230721-WA0002.jpg' },
-    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Huaskatze', description2: '', image: 'https://tierheim-remscheid.de/wp-content/uploads/2023/07/IMG-20230721-WA0002.jpg' },
-    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Huaskatze', description2: '', image: 'https://tierheim-remscheid.de/wp-content/uploads/2023/07/IMG-20230721-WA0002.jpg' },
-    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Huaskatze', description2: '', image: 'https://tierheim-remscheid.de/wp-content/uploads/2023/07/IMG-20230721-WA0002.jpg' },
+    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Hauskatze', description2: '12 Jahre', image: 'https://source.unsplash.com/random/?dog,cat,rabbit,budgerigar&sig=1' },
+    { name: 'Agust', type: 'Katze', gender: 'female', description1: 'Windhund', description2: '', image: 'https://source.unsplash.com/random/?dog,cat,rabbit,budgerigar&sig=2' },
+    { name: 'Agust', type: 'Katze', gender: '',       description1: 'Hauskatze', description2: '', image: 'https://source.unsplash.com/random/?dog,cat,rabbit,budgerigar&sig=3' },
+    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Hauskatze', description2: '', image: 'https://source.unsplash.com/random/?dog,cat,rabbit,budgerigar&sig=4' },
+    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Hauskatze', description2: '', image: 'https://source.unsplash.com/random/?dog,cat,rabbit,budgerigar&sig=5' },
+    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Huaskatze', description2: '', image: 'https://source.unsplash.com/random/?dog,cat,rabbit,budgerigar&sig=6' },
+    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Huaskatze', description2: '', image: 'https://source.unsplash.com/random/?dog,cat,rabbit,budgerigar&sig=7' },
+    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Huaskatze', description2: '', image: 'https://source.unsplash.com/random/?dog,cat,rabbit,budgerigar&sig=8' },
+    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Huaskatze', description2: '', image: 'https://source.unsplash.com/random/?dog,cat,rabbit,budgerigar&sig=9' },
+    { name: 'Agust', type: 'Katze', gender: 'male',   description1: 'Huaskatze', description2: '', image: 'https://source.unsplash.com/random/?dog,cat,rabbit,budgerigar&sig=0' },
   ];
 </script>
 <div class="page-contents">
